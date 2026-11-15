@@ -4,12 +4,7 @@
   --bg: #f9f9f9;
   --ink: #1b1b1b;
   --line: #e5e5e5;
-}
-
-@media (prefers-color-scheme:dark) {
-  :root {
-    color-scheme: dark;
-  }
+  color-scheme: light;   /* always light: form controls keep dark text even if the PC is in dark mode */
 }
 
 * {
@@ -151,8 +146,8 @@ input.t {
   border-radius: 4px;
   font: inherit;
   background: #fff;
-  user-select: text;
   color: var(--ink);
+  user-select: text;
 }
 
 button.b {
@@ -160,9 +155,9 @@ button.b {
   border-radius: 4px;
   border: 1px solid #ccc;
   background: #fdfdfd;
+  color: var(--ink);
   font: inherit;
   cursor: pointer;
-  color: var(--ink);
 }
 
 button.b:hover {
