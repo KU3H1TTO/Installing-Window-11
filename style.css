@@ -152,6 +152,7 @@ input.t {
   font: inherit;
   background: #fff;
   user-select: text;
+  color: var(--ink);
 }
 
 button.b {
@@ -622,6 +623,7 @@ tr.on td {
   resize: none;
   font: 15px Consolas,monospace;
   background: transparent;
+  color: var(--ink);
 }
 
 .row {
