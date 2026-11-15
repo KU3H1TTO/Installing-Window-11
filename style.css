@@ -162,6 +162,7 @@ button.b {
   background: #fdfdfd;
   font: inherit;
   cursor: pointer;
+  color: var(--ink);
 }
 
 button.b:hover {
